@@ -1,0 +1,18 @@
+{
+  "name": "p2-guiapress",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido em curso com o professor, esse e o segundo projeto do curso, sobre ele irei desenvolver um blog que possibilitara a criaccao de artigos, que serao separados por categorias. utilizando o mySQL, node.js, JavaScrip e entre outras bibliotecas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Frazão",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
+  }
+}
