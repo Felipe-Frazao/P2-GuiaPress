@@ -14,8 +14,12 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 //DATABASE
-connection.authenticate().then(() => {
-    console.log("Conexão com banco de dados estabelecida com sucesso");
+connection
+    .authenticate()
+    .then(() => {
+        console.log("Conexão com banco de dados estabelecida com sucesso");
+}).catch((error) => {
+    console.log(error);
 });
 
 //ROUTES
